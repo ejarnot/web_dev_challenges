@@ -6,12 +6,7 @@
 4. Given a string, write a function that will return whether or not that string is a palindrome.
 5. Given a string possibly containing three types of braces ({}, [], ()), write a function that returns a Boolean indicating whether the given string contains a valid nesting of braces.
 6. An Armstrong number is an n-digit number that is equal to the sum of the nthnth powers of its digits. Determine if the input number is an Armstrong number. Return either true or false.
-
----
-
-## TODO
-
-7. Given an array of objects, sort the objects by population size. Return the entire object.
+7. **TODO**: Given an array of objects, sort the objects by population size. Return the entire object.
 
 ## Sources
 

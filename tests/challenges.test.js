@@ -1,4 +1,5 @@
 const faker = require("faker");
+const each = require("jest-each");
 const {
   longestString,
   mostCommonCharacter,
@@ -18,22 +19,36 @@ const {
 const { filledArray } = require("../utils/factories");
 
 // 1.
-
-test("1 | Should return the longest string", () => {
-  let testInput = ["Please", "my", "Dear", "Aunt", "Sally"];
-  expect(longestString(testInput)).toBe(longestStringSolution(testInput));
-
-  testInput = filledArray();
-  expect(longestString(testInput)).toBe(longestStringSolution(testInput));
+describe("longestString()", () => {
+  test("1 | Should return 'Please'", () => {
+    let testInput = ["Please", "my", "Dear", "Aunt", "Sally"];
+    expect(longestString(testInput)).toBe(longestStringSolution(testInput));
+  });
 
   testInput = filledArray();
-  expect(longestString(testInput)).toBe(longestStringSolution(testInput));
+  test(`2 | Should return the ${longestStringSolution(testInput)}`, () => {
+    expect(longestString(testInput)).toBe(longestStringSolution(testInput));
+  });
 
   testInput = filledArray();
-  expect(longestString(testInput)).toBe(longestStringSolution(testInput));
+  test(`3 | Should return the ${longestStringSolution(testInput)}`, () => {
+    expect(longestString(testInput)).toBe(longestStringSolution(testInput));
+  });
 
   testInput = filledArray();
-  expect(longestString(testInput)).toBe(longestStringSolution(testInput));
+  test(`4 | Should return the ${longestStringSolution(testInput)}`, () => {
+    expect(longestString(testInput)).toBe(longestStringSolution(testInput));
+  });
+
+  testInput = filledArray();
+  test(`5 | Should return the ${longestStringSolution(testInput)}`, () => {
+    expect(longestString(testInput)).toBe(longestStringSolution(testInput));
+  });
+
+  testInput = filledArray();
+  test(`6 | Should return the ${longestStringSolution(testInput)}`, () => {
+    expect(longestString(testInput)).toBe(longestStringSolution(testInput));
+  });
 });
 
 // 2.

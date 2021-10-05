@@ -11,6 +11,8 @@ const filledArray = (dataType = "string", max = 10000, min = 0) => {
       arr.push(faker.random.word());
     }
   }
+
+  return arr;
 };
 
 module.exports = {
