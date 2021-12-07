@@ -20,8 +20,8 @@ const { filledArray } = require("../utils/factories");
 
 // 1.
 describe("longestString()", () => {
+  let testInput = ["Please", "my", "Dear", "Aunt", "Sally"];
   test("1 | Should return 'Please'", () => {
-    let testInput = ["Please", "my", "Dear", "Aunt", "Sally"];
     expect(longestString(testInput)).toBe(longestStringSolution(testInput));
   });
 
