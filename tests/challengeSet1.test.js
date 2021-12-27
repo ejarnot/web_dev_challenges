@@ -1,5 +1,6 @@
 const faker = require("faker");
 const {
+  areTwoNumbersTheSame,
   subtract,
   add,
   getSmallestNumber,
@@ -53,4 +54,8 @@ test("5 | Should return 'Hey, <name>'", () => {
 
 test("6 | Should return 'Hey'", () => {
   expect(getHey()).toBe(getHeySolution());
+});
+
+test("7 | Should return true if both numbers are equal", () => {
+  expect(areTwoNumbersTheSame(7, 10)).toBe(false);
 });

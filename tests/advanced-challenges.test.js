@@ -7,7 +7,7 @@ const {
   isPalindrome,
   validEncasings,
   isArmstrongNumber,
-} = require("../challenges");
+} = require("../challenges/advanced-challenges");
 const {
   longestStringSolution,
   mostCommonCharacterSolution,
@@ -15,7 +15,7 @@ const {
   isPalindromeSolution,
   validEncasingsSolution,
   isArmstrongNumberSolution,
-} = require("../solutions");
+} = require("../solutions/advanced-challenges");
 const { filledArray } = require("../utils/factories");
 
 // 1.

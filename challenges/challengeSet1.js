@@ -1,36 +1,33 @@
 function areTwoNumbersTheSame(num1, num2) {
-  if (num1 == num2) {
-    return true;
-  } else {
-    return false;
-  }
+  // your solution here
 }
 
 function subtract(minuend, subtrahend) {
-  return minuend - subtrahend;
+  // your solution here
 }
 
 function add(number1, number2) {
-  return number1 + number2;
+  // your solution here
 }
 
 function getSmallestNumber(number1, number2) {
-  return Math.min(number1, number2);
+  // your solution here
 }
 
 function multiply(factor1, factor2) {
-  return factor2 * factor1;
+  // your solution here
 }
 
 function getGreeting(nameOfPerson) {
-  return `Hey, ${nameOfPerson}!`;
+  // your solution here
 }
 
 function getHey() {
-  return "Hey";
+  // your solution here
 }
 
 module.exports = {
+  areTwoNumbersTheSame,
   subtract,
   add,
   getSmallestNumber,
