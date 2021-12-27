@@ -22,7 +22,7 @@ function isStringANumber(input) {
   // your solution here
 }
 
-function majorityOfElementsInArrayAreNull(objs) {
+function majorityOfElementsInArrayAreNull(vals) {
   // your solution here
 }
 

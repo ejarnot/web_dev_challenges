@@ -6,7 +6,6 @@ Return the longest string.
 
 function longestString(arr) {
   // code...
-  return "Please";
 }
 
 /* 
@@ -17,7 +16,6 @@ and returns the character that is most commonly used in the string.
 
 function mostCommonCharacter(str) {
   // code...
-  return "e";
 }
 
 /* 
@@ -28,7 +26,6 @@ and returns a boolean that indicates whether or not the first string is an anagr
 
 function isAnagram(word1, word2) {
   // code...
-  return true;
 }
 
 /*
@@ -38,7 +35,6 @@ Given a string, write a function that will return whether or not that string is 
 
 function isPalindrome(str) {
   // code...
-  return false;
 }
 
 /*
@@ -48,7 +44,6 @@ function isPalindrome(str) {
 
 function validEncasings(str) {
   // code...
-  return false;
 }
 
 /*
@@ -60,7 +55,6 @@ Ex: 371 = 3^3 + 7^3 + 1^3 => true
 
 function isArmstrongNumber(num) {
   // code...
-  return true;
 }
 
 // DO NOT CHANGE EXPORT STATEMENT

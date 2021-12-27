@@ -1,5 +1,6 @@
 function areTwoNumbersTheSame(num1, num2) {
-  // your solution here
+  // example solution
+  return num1 === num2;
 }
 
 function subtract(minuend, subtrahend) {

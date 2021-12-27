@@ -32,7 +32,6 @@ function getOddsBelow100() {
 
 function changeAllElementsToUppercase(words) {
   // your solution here
-  return ["FRODO", "FR0D0", "FRODO", ""];
 }
 
 module.exports = {
