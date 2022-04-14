@@ -38,6 +38,7 @@ function countOfPositiveOddsBelowNumber(number) {
   // your solution here
 }
 
+// DO NOT CHANGE EXPORT STATEMENT
 module.exports = {
   countOfPositiveOddsBelowNumber,
   isSumOdd,

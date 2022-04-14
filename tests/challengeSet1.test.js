@@ -15,7 +15,7 @@ const {
   multiplySolution,
   getGreetingSolution,
   getHeySolution,
-} = require("../solutions/challengeSet1");
+} = require("./solutions/challengeSet1");
 
 test("1 | Should return the subtracted result", () => {
   let testInput1 = faker.datatype.number();

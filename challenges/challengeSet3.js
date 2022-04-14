@@ -34,6 +34,7 @@ function changeAllElementsToUppercase(words) {
   // your solution here
 }
 
+// DO NOT CHANGE EXPORT STATEMENT
 module.exports = {
   arrayContainsAFalse,
   isSumOfOddsOdd,

@@ -18,6 +18,7 @@ function getEveryNthElement(elements, n) {
   // your solution here
 }
 
+// DO NOT CHANGE EXPORT STATEMENT
 module.exports = {
   collectionContainsWord,
   isPrimeNumber,

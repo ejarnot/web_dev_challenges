@@ -5,7 +5,7 @@ const {
   isPalindrome,
   validEncasings,
   isArmstrongNumber,
-} = require("../challenges/advanced-challenges");
+} = require("../challenges/xxx-advanced-challenges");
 
 // 1.
 test(`1 | Should return the longest string`, () => {

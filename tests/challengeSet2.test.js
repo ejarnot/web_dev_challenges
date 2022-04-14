@@ -22,7 +22,7 @@ const {
   sumOfMinAndMaxSolution,
   countOfElementsIsEvenSolution,
   characterIsALetterSolution,
-} = require("../solutions/challengeSet2");
+} = require("./solutions/challengeSet2");
 
 test("1 | Should return true/false if the input is a letter", () => {
   let testInput1 = faker.datatype.string(1);

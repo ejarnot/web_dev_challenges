@@ -27,6 +27,7 @@ function getHey() {
   // your solution here
 }
 
+// DO NOT CHANGE EXPORT STATEMENT
 module.exports = {
   areTwoNumbersTheSame,
   subtract,
