@@ -8,7 +8,7 @@ Once you clone this repo, run `npm install` to install all of the necessary depe
 
 ## Solving Challenges
 
-All challenges are located in the `challenges/` folder. You can find a [prompts.md](challenges/prompts.md) file with instructions per JS challenge.
+All challenges are located in the `challenges/` folder. You can find an [instructions.md](challenges/instructions.md) file with instructions per JS challenge.
 
 ## Testing
 
@@ -33,6 +33,8 @@ npm test tests/challengeSet1.test.js
 ## Contribution
 
 If you are a generous soul, and would like to contribute your own challenges to this project, open a pull request to be reviewed by the repo owner.
+
+Visit the [contributions](contributions.md) document to add your prompt and solution.
 
 ## Continuation
 
