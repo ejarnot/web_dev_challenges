@@ -1,41 +1,64 @@
 function characterIsALetter(c) {
-  // your solution here
+ let charCode = c.toUpperCase().charCodeAt(0);
+ return charCode >= 65 && charCode <=90;
 }
 
 function countOfElementsIsEven(vals) {
-  // your solution here
-}
+  //(array) => number
+  return vals.length % 2 == 0;
+  }
 
 function isNumberEven(number) {
-  // your solution here
+  return number % 2 == 0;
 }
 
 function isNumberOdd(num) {
-  // your solution here
+  return number % 2 == 1;
 }
 
 function sumOfMinAndMax(numbers) {
-  // your solution here
+ return Math.min(...numbers) + Math.max(...numbers);
 }
 
 function getLengthOfShortestString(str1, str2) {
-  // your solution here
+  //("string", "string") => number
+ /*if(str1.length < str2.length){
+   return str1.length;
+ }else{
+   return str2.length
+ }*/
+ return str1.length < str2.length ? str1.length : str2.length;
 }
 
 function sum(numbers) {
-  // your solution here
+  return numbers.reduce((acc, num) => {
+    return acc + num
+  }, 0);
 }
 
 function sumEvens(numbers) {
-  // your solution here
+  return numbers.reduce((acc, num) =>{
+    if(num % 2 ==0){
+      return acc + num;
+    }else{
+      return acc;
+    }
+  }, 0)
 }
 
 function isSumOdd(numbers) {
-  // your solution here
+  let sumOfNums = sum(numbers);
+  return sumOfNums % 2 ==1;
 }
 
 function countOfPositiveOddsBelowNumber(number) {
-  // your solution here
+  let arrOfOdds = []
+
+  for(let i=1; i< number; i+=2){
+    arrOfOdds.push(i);
+  }
+
+  return arrOfOdds.length;
 }
 
 // DO NOT CHANGE EXPORT STATEMENT
