@@ -17,7 +17,11 @@ const {
   getHeySolution,
 } = require("./solutions/challengeSet1");
 
-test("1 | Should return the subtracted result", () => {
+test("1 | Should return true if both numbers are equal", () => {
+  expect(areTwoNumbersTheSame(7, 10)).toBe(false);
+});
+
+test("2 | Should return the subtracted result", () => {
   let testInput1 = faker.datatype.number();
   let testInput2 = faker.datatype.number();
   expect(subtract(testInput1, testInput2)).toBe(
@@ -25,13 +29,13 @@ test("1 | Should return the subtracted result", () => {
   );
 });
 
-test("2 | Should return the sum", () => {
+test("3 | Should return the sum", () => {
   let testInput1 = faker.datatype.number();
   let testInput2 = faker.datatype.number();
   expect(add(testInput1, testInput2)).toBe(addSolution(testInput1, testInput2));
 });
 
-test("3 | Should return the minimum number", () => {
+test("4 | Should return the minimum number", () => {
   let testInput1 = faker.datatype.number();
   let testInput2 = faker.datatype.number();
   expect(getSmallestNumber(testInput1, testInput2)).toBe(
@@ -39,7 +43,7 @@ test("3 | Should return the minimum number", () => {
   );
 });
 
-test("4 | Should return the correct product", () => {
+test("5 | Should return the correct product", () => {
   let testInput1 = faker.datatype.number();
   let testInput2 = faker.datatype.number();
   expect(multiply(testInput1, testInput2)).toBe(
@@ -47,15 +51,11 @@ test("4 | Should return the correct product", () => {
   );
 });
 
-test("5 | Should return 'Hey, <name>'", () => {
+test("6 | Should return 'Hey, <name>'", () => {
   let testInput = faker.name.firstName();
   expect(getGreeting(testInput)).toBe(getGreetingSolution(testInput));
 });
 
-test("6 | Should return 'Hey'", () => {
+test("7 | Should return 'Hey'", () => {
   expect(getHey()).toBe(getHeySolution());
-});
-
-test("7 | Should return true if both numbers are equal", () => {
-  expect(areTwoNumbersTheSame(7, 10)).toBe(false);
 });
